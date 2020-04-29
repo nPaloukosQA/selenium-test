@@ -32,6 +32,12 @@ public class MakingOrderTest {
             sleep(2000);
             driver.findElement(By.id("add_to_cart")).click();
             sleep(2000);
+            driver.findElement(By.linkText("Proceed to checkout")).click();
+            sleep(2000);
+            driver.findElement(By.linkText("Proceed to checkout")).click();
+            sleep(2000);
+
+
 
 
         }
