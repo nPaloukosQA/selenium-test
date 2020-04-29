@@ -30,6 +30,8 @@ public class MakingOrderTest {
             sleep(2000);
             driver.findElement(By.linkText("Faded Short Sleeve T-shirts")).click();
             sleep(2000);
+            driver.findElement(By.id("add_to_cart")).click();
+            sleep(2000);
 
 
         }
